@@ -9,7 +9,9 @@ import numpy as np
 
 
 class CustomLinearRegression:
+    
     d = dict()
+    
     def __init__(self, fit_intercept=True):
         self.fit_intercept = fit_intercept
         self.coefficient = ...
